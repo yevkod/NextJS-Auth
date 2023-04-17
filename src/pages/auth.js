@@ -1,5 +1,5 @@
 import { getSession } from 'next-auth/client';
-import AuthForm from '@/Components/Auth/AuthForm';
+import AuthForm from '../components/auth/AuthForm';
 
 function AuthPage() {
     return <AuthForm />;
